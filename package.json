@@ -1,0 +1,26 @@
+{
+  "name": "number-guessing-game",
+  "version": "1.0.0",
+  "description": "Guesse number game.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "prettier --check . && eslint .",
+    "fix": "prettier --write . && eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-terumoto-gs/number-guessing-game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/a-terumoto-gs/number-guessing-game/issues"
+  },
+  "homepage": "https://github.com/a-terumoto-gs/number-guessing-game#readme",
+  "keywords": [
+    "number",
+    "guessing",
+    "game"
+  ],
+  "author": "a-terumoto-gs",
+  "license": "MIT",
+  "type": "module"
+}
