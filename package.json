@@ -1,5 +1,5 @@
 {
-  "name": "number-guessing-game",
+  "name": "@a-terumoto-gs/number-guessing-game",
   "version": "1.0.0",
   "description": "Guesse number game.",
   "main": "index.js",
