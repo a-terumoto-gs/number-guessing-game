@@ -4,7 +4,7 @@
 # 使い方
 以下のコマンドを実行するとゲームが起動します。
 ```
-npx number-guessing-game
+npx @a-terumoto-gs/number-guessing-game
 ```
 まずランダムに設定される数字(ターゲットとなる数字)の桁数を3,4,5桁の中から選びます。
 そして難易度をeasy,hardから選びます。
