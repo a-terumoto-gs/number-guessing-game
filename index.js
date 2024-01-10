@@ -13,17 +13,16 @@ class NumberGuessingGame {
 
     let digitCount;
 
-    // eslint-disable-next-line no-constant-condition
-    while (true) {
+    for (;;) {
       digitCount = parseInt(
         readlineSync.question("挑戦する桁数を3,4,5から選んでください:"),
         10,
       );
 
-      if (![3, 4, 5].includes(digitCount)) {
-        console.log("3,4,5のうちから桁数を指定してください");
-      } else {
+      if ([3, 4, 5].includes(digitCount)) {
         break;
+      } else {
+        console.log("3, 4, 5のうちから桁数を指定してください");
       }
     }
 
@@ -39,8 +38,7 @@ class NumberGuessingGame {
 
     console.log(`${digitCount}桁の数字を推理しましょう. (難易度: ${level})`);
 
-    // eslint-disable-next-line no-constant-condition
-    while (true) {
+    for (;;) {
       const guess = readlineSync.question(
         `推測した${digitCount}桁の数字を入力してください:`,
       );
